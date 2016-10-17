@@ -16,6 +16,8 @@ cd .../path/to/your/project/directory
 elm package install elm-lang/keyboard
 ```
 
+```elm-lang/keyboard`` is documented [here](http://package.elm-lang.org/packages/elm-lang/keyboard/latest).
+
 I built an HTML file with:
 
 ```
