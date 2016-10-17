@@ -104,4 +104,9 @@ view model =
              [ text "github.com/elm-lang/keyboard/issues/3" ]
            , text ": \"Not all key codes work in every browser.\""
            ]
+    , p [] [ text "Source code: "
+           , a [ href "https://github.com/billstclair/elm-keyboard-example" ]
+             [ text "github.com/billstclair/elm-keyboard-example" ]
+           , text "."
+           ]
     ]
