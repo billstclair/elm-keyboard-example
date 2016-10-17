@@ -22,6 +22,6 @@ I built an HTML file with:
 elm make keyboard-test.elm --output elm-keyboard-example.html
 ```
 
-And uploaded that to [billstclair.com/elm-keyboard-example.html](https://billstclair.com/elm-keyboard-example.html).
+And uploaded that to [lisplog.org/elm-keyboard-example.html](https://lisplog.org/elm-keyboard-example.html).
 
 The source code is at [github.com/billstclair/elm-keyboard-example](https://github.com/billstclair/elm-keyboard-example).
