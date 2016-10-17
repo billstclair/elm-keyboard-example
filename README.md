@@ -25,6 +25,3 @@ elm make keyboard-test.elm --output elm-keyboard-example.html
 And uploaded that to [billstclair.com/elm-keyboard-example.html](https://billstclair.com/elm-keyboard-example.html).
 
 The source code is at [github.com/billstclair/elm-keyboard-example](https://github.com/billstclair/elm-keyboard-example).
-
-Typing keys will show their "Code", an integer, and their "Char", a string, converted from that integer.
-
