@@ -87,7 +87,7 @@ displayCode code label =
 view : Model -> Html Msg
 view model =
   div []
-    [ h2 [] [ text "Elm Keyboard Test" ]
+    [ h2 [] [ text "Elm Keyboard Example" ]
     , p [] [ displayCode model.press "press"
            ,br
            , displayCode model.down "down"
