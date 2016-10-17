@@ -55,7 +55,7 @@ br : Html a
 br =
   Html.br [] []
 
-View : Model -> Html Msg
+view : Model -> Html Msg
 view model =
   div []
     [ h2 [] [ text "Elm Keyboard Test" ]
@@ -68,6 +68,6 @@ view model =
     , p [] [ text "Press keys and their keycodes will appear above." ]
     , p [] [ text "Only the arrow keys work for me in Firefox." ]
     , p [] [ text "The arrow keys do NOT work for me in Safari, Chrome, or Opera,"
-           , text "but the other keys DO work."
+           , text " but the other keys DO work."
            ]
     ]
