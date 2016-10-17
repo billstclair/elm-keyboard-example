@@ -12,8 +12,8 @@ import Keyboard
 
 import String
 import Char
-import Html exposing (Html, Attribute, div, text, h2, p, span)
-import Html.Attributes exposing (style)
+import Html exposing (Html, Attribute, div, text, h2, p, span, a)
+import Html.Attributes exposing (style, href)
 import Html.App as Html
 import Debug exposing (log)
 
@@ -69,5 +69,10 @@ view model =
     , p [] [ text "Only the arrow keys work for me in Firefox." ]
     , p [] [ text "The arrow keys do NOT work for me in Safari, Chrome, or Opera,"
            , text " but the other keys DO work."
+           ]
+    , p [] [ text "See "
+           , a [ href "https://github.com/elm-lang/keyboard/issues/3" ]
+             [ text "github.com/elm-lang/keyboard/issues/3" ]
+           , text ": \"Not all key codes work in every browser.\""
            ]
     ]
